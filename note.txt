@@ -1,0 +1,5 @@
+user name: crudapp
+user password: crudapp
+
+
+mongodb+srv://crudapp:<db_password>@cluster0.s8f8nmb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
