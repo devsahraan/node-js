@@ -32,6 +32,10 @@ app.use(bodyParse.json())
 
 app.use('/',mainRoute)
 
+app.get('/',(req,res)=>{
+    res.send('hello world')
+})
+
 app.listen(port,()=>{
     console.log('server run')
     console.log('server run')
