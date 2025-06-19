@@ -28,7 +28,7 @@ db.on('disconnected',()=>{
 console.log(dbUrl)
 
 app.use(bodyParse.json())
-app.use(formData.parse())
+// app.use(formData.parse())
 
 app.use('/',mainRoute)
 
